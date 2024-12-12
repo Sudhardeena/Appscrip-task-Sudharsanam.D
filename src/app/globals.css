@@ -1,3 +1,9 @@
+@import url(https://db.onlinewebfonts.com/c/ca671f001f1c1ac07ba12ef439e7e65a?family=Simplon+Norm);
+@font-face {
+  font-family: "SFProText";
+  src: url("/fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+}
+
 * {
   padding: 0;
   margin: 0;

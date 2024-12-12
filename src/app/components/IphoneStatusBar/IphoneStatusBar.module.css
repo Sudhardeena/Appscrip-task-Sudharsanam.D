@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  position: fixed;
+  background-color: #ffffff;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 4px;
+}
+
+.rightgroup {
+  gap: 2px;
+}
+
+.text {
+  font-family: "SFProText";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+}
+
+.time {
+  font-family: "SFProText";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+}
