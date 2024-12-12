@@ -11,6 +11,7 @@
 @media screen and (min-width: 768px) {
   .container {
     justify-content: space-between;
+    margin-top: 0;
   }
 }
 .content {
@@ -26,12 +27,12 @@
   color: #eb4c6b;
 }
 
-.hiddenElement {
+.desktopElement {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
-  .hiddenElement {
-    display: block;
+  .desktopElement {
+    display: flex;
   }
 }

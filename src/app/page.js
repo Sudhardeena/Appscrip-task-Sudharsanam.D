@@ -7,7 +7,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import ProductList from "./components/ProductList/ProductList";
 import PageInfo from "./components/PageInfo/PageInfo";
 
-export default function Home() {
+export default function Page() {
   return (
     <div className={styles.page}>
       <Header />

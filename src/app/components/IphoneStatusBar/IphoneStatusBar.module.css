@@ -9,6 +9,12 @@
   background-color: #ffffff;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    display: none;
+  }
+}
+
 .group {
   display: flex;
   align-items: center;

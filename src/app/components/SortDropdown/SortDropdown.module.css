@@ -1,0 +1,22 @@
+.container {
+  /* width: 117px;
+  height: 17px; */
+}
+
+.selectElement {
+  display: flex;
+  gap: 4px;
+}
+
+.selectedElement {
+  width: 97px;
+  height: 17px;
+
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
