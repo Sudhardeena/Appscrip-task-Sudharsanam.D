@@ -3,14 +3,16 @@ import styles from "./Toggler.module.css";
 import Image from "next/image";
 import SortDropdown from "../SortDropdown/SortDropdown";
 
-const Toggler = () => {
+const Toggler = ({ toggleSidebar }) => {
   return (
     <div className={styles.togglerContainer}>
       <div className={styles.filterContainer}>
-        <h2 className={styles.filterToggler}>Filter</h2>
+        <h2 className={styles.filterToggler} onClick={() => toggleSidebar()}>
+          Filter
+        </h2>
       </div>
       <Image
-        src="public/Line 14.svg"
+        src="Line 14.svg"
         width={1}
         height={30}
         className={styles.togglersSeparator}

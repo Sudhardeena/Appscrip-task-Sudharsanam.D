@@ -12,6 +12,7 @@ const SortDropdown = () => {
           width={16}
           height={16}
           alt="arrow-left sort dropdown icon"
+          className={styles.dropdownIcon}
         />
       </div>
     </div>

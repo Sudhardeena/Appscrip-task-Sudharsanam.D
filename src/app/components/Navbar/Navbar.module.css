@@ -40,5 +40,55 @@
   text-align: center;
 }
 
+.desktopOnlyIcon {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    padding: 26px 96px 0;
+  }
+  .menuIcon {
+    display: none;
+  }
+  .logoheading {
+    font-size: 36px;
+  }
+  .rightgroup {
+    gap: 24px;
+  }
+  .desktopIcons {
+    width: 24px;
+    height: 24px;
+  }
+  .desktopOnlyIcon {
+    display: block;
+  }
+}
+
+.desktopViewLinksContainer {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  margin: 60px 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .desktopViewLinksContainer {
+    display: flex;
+  }
+}
+
 .desktopViewLinks {
+  font-family: "Simplon Norm";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252020;
 }

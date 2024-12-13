@@ -5,13 +5,11 @@
 
 .selectElement {
   display: flex;
+  align-items: center;
   gap: 4px;
 }
 
 .selectedElement {
-  width: 97px;
-  height: 17px;
-
   font-family: "Simplon Norm";
   font-size: 14px;
   font-weight: 700;
@@ -19,4 +17,18 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+
+@media screen and (min-width) {
+  .selectElement {
+    gap: 8px;
+  }
+  .selectedElement {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .dropdownIcon {
+    width: 23px;
+    height: 23px;
+  }
 }

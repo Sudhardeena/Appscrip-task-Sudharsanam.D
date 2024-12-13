@@ -1,5 +1,13 @@
 .productList {
   flex-grow: 1;
   /* height: 200px; */
-  background-color: pink;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media screen and (min-width) {
+  .productList {
+    gap: 16px;
+  }
 }

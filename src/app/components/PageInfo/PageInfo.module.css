@@ -1,6 +1,18 @@
 .container {
   width: 100%;
-  padding: 0 16px 16px;
+  padding: 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 72px 0;
+  }
+}
+
+@media screen and (min-width) {
+  .container {
+    padding: 72px 100px;
+  }
 }
 
 .text {
@@ -21,4 +33,15 @@
 .pageInfoDesc {
   font-style: 16px;
   line-height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .pageInfoTitle {
+    font-size: 60px;
+    line-height: 72px;
+  }
+  .pageInfoDesc {
+    font-size: 22px;
+    line-height: 40px;
+  }
 }
