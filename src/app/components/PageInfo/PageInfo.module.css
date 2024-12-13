@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (min-width) {
+@media screen and (min-width: 1100px) {
   .container {
     padding: 72px 100px;
   }
